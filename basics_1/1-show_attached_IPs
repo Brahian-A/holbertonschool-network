@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Muestra todas las ips activas en la máquina
+
+ifconfig | grep 'inet ' | awk '{ print $2 }'

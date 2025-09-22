@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#escucha puerto 98
+
+nc -l -p 98
